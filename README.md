@@ -1,2 +1,2 @@
 # NoteNerd
-#*Jeannine Orejudos*
+*Jeannine Orejudos*
