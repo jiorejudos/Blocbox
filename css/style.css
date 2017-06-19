@@ -35,7 +35,7 @@ p{
 .container:after{
   clear: both;
 }
-.one-half, .one-third, .one-fourth{
+.one-half, .one-third, .one-fourth {
   width: 96%;
   float: left;
   position: relative;
@@ -67,7 +67,12 @@ p{
     width: 1170px;
   }
 }
-
+@media {
+  .container {
+  min-width: 320px;
+  max-width: 480px;
+  }
+}
 /* HEADER */
 header {
   color:#FFFFFF;
@@ -290,3 +295,6 @@ header .hero {
      font-size:13px;
      margin-top: 30px;
    }
+   .testimonials.lower {
+  padding: 20px 0px 0px 0px;
+}
