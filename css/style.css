@@ -359,6 +359,9 @@ footer .right-footer-block {
   position: fixed;
   display: block;
 }
+a:active {
+    background-color: #FFB70A;
+}
 .left-nav .site-logo {
   padding: 20px 0;
   background: #3B39AD;
